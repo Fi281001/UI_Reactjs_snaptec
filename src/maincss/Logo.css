@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  align-items: center;
+  width: 7.8vw; /* Điều chỉnh tỷ lệ theo viewport */
+  height: 3.9vh; /* Điều chỉnh tỷ lệ theo viewport */
+  margin-left: 4.9vw; /* Điều chỉnh tỷ lệ theo viewport */
+  margin-top: 5.46vh; /* Điều chỉnh tỷ lệ theo viewport */
+  color: #42427d;
+}
+
+.bi-emoji-smile {
+  font-size: 18.72px;
+}
+
+.logo_name {
+  margin-left: 0.78vw; /* Điều chỉnh tỷ lệ theo viewport */
+  font-size: 23.4px;
+  line-height: 1.95vw; /* Điều chỉnh tỷ lệ theo viewport */
+  font-weight: 600;
+}

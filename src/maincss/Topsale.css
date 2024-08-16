@@ -1,0 +1,69 @@
+.top-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.top-title span {
+  color: #42427d;
+  height: 24.18px;
+  font-weight: 700;
+  font-size: 18.72px;
+  line-height: 23.78px;
+}
+
+.top-title a {
+  color: none;
+  height: 24.18px;
+  text-decoration: none;
+  margin-top: 3.9px;
+}
+
+/* top list */
+/* Container block */
+.block {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  height: 49.92px;
+  gap: 15.6px;
+  margin-bottom: 18px;
+}
+
+/* Badge styling */
+.badge {
+  display: flex; /* Use flexbox for centering content */
+  align-items: center; /* Center the number vertically */
+  justify-content: center; /* Center the number horizontally */
+  color: #7979b2;
+}
+
+/* Image styling */
+.image2 {
+  width: 49.92px; /* Set the width of the image */
+  height: 49.92px; /* Set the height of the image */
+  object-fit: cover; /* Ensure image covers the area without distortion */
+  border-radius: 15px 5px 15px 5px;
+}
+
+/* Container for text information */
+.info {
+  display: flex;
+  flex-direction: column; /* Stack text elements vertically */
+}
+
+/* Name styling */
+.name {
+  font-size: 15.6px; /* Font size for name */
+  font-weight: 400; /* Make the name bold */
+  margin-bottom: 3.9px; /* Space between name and price */
+  color: #42427d;
+  height: 19.5px;
+}
+
+/* Price styling */
+.price {
+  font-size: 18.72px; /* Font size for price */
+  color: #42427d; /* Text color for price */
+  font-weight: 700;
+}

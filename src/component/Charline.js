@@ -1,0 +1,39 @@
+import React from "react";
+import "../maincss/Char.css";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  Tooltip,
+  CartesianGrid,
+} from "recharts";
+
+const data = [
+  { name: "Jan", value: 4000 },
+  { name: "Feb", value: 3000 },
+  { name: "Mar", value: 2000 },
+  { name: "Apr", value: 2780 },
+  { name: "May", value: 1890 },
+];
+export default function Charline() {
+  return (
+    <div classNae="char">
+      <div className="char-title">
+        <span>Sales statistics</span>
+        <select>
+          <option>Monthly</option>
+        </select>
+      </div>
+      <div className="charline">
+        <LineChart width={624} height={360} data={data}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Line type="monotone" dataKey="value" stroke="#8884d8" />
+        </LineChart>
+      </div>
+    </div>
+  );
+}

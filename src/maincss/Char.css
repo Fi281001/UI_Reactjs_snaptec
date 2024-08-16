@@ -1,0 +1,36 @@
+.char {
+  height: 448.5px;
+  border: 2px solid #000;
+  width: 662.22px;
+  margin-left: -18.72px;
+}
+
+.char-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15.6px;
+}
+
+.char-title span {
+  color: #42427d;
+  font-size: 18.72px;
+  font-weight: 700;
+}
+
+.char-title select {
+  width: 116.22px;
+  height: 40.56px;
+  margin-right: 32.76px;
+  border-radius: 23px 10px 23px 10px;
+}
+
+.char-title select option {
+  text-align: center;
+  font-size: 12.48px;
+  font-weight: 500;
+  border: 2px solid #000;
+}
+
+.charline {
+  margin-left: -14.82px;
+}

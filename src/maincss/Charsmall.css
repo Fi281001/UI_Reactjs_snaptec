@@ -1,0 +1,36 @@
+.char2 {
+  margin-top: 28px;
+  width: 364.26px;
+  margin-left: -18.72px;
+}
+
+.char-title3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15.6px;
+}
+
+.char-title3 span {
+  color: #42427d;
+  font-size: 18.72px;
+  font-weight: 700;
+}
+
+.char-title3 select {
+  width: 116.22px;
+  height: 40.56px;
+  margin-right: 13.26px;
+  border-radius: 23px 10px 23px 10px;
+}
+
+.char-title3 select option {
+  text-align: center;
+  font-size: 12.48px;
+  font-weight: 500;
+  border: 2px solid #000;
+}
+
+.char-small {
+  margin-top: 15px;
+  margin-left: -8.58px;
+}

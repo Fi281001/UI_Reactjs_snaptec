@@ -1,0 +1,48 @@
+.navigation {
+  width: 16vw; /* Điều chỉnh tỷ lệ theo viewport */
+  margin-top: 7vh; /* Điều chỉnh tỷ lệ theo viewport */
+  margin-left: 3vw; /* Điều chỉnh tỷ lệ theo viewport */
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navbar-links li {
+  width: 15vw;
+  height: 9vh;
+  border-radius: 2vh; /* Điều chỉnh tỷ lệ theo viewport */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #a0aac8;
+  font-size: 15.6px; /* Điều chỉnh tỷ lệ theo viewport */
+  font-weight: 500;
+  margin-left: 2.5vw; /* Điều chỉnh tỷ lệ theo viewport */
+}
+
+.navbar-links li:first-child,
+.navbar-links li:first-child:hover {
+  background-color: #ffffff; /* Áp dụng màu nền khi hover */
+}
+
+.navbar-links li:first-child > .bi,
+.navbar-links li:first-child > a {
+  color: #42427d;
+  font-weight: 700;
+}
+
+.navbar-links li > .bi {
+  color: #a0aac8;
+  font-weight: 500;
+  font-size: 1.5vw; /* Điều chỉnh tỷ lệ theo viewport */
+  margin-left: 2vw; /* Điều chỉnh tỷ lệ theo viewport */
+}
