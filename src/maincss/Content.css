@@ -12,7 +12,7 @@
 
 .content-col-1 span {
   color: #42427d;
-  font-size: 2.19rem; /* Chuyển từ 35.1px sang rem */
+  font-size: 30px; /* Chuyển từ 35.1px sang rem */
   font-weight: 400;
 }
 
@@ -165,9 +165,9 @@
     width: 25vw;
   }
   .content-col-1 span {
-    height: 58px;
-    size: 45px;
+    font-size: 45px;
     line-height: 57.24px;
+    font-weight: 400;
   }
 
   .stats {

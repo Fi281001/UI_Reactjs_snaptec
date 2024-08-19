@@ -7,10 +7,9 @@ export default function Content() {
   return (
     <>
       <div className="content-col-1">
-        <span>
-          Wellcome, <strong>Damian</strong>
+        <span class="welcome-text">
+          Wellcome, <strong class="name-text">Damian</strong>
         </span>
-
         <div className="stats">
           <div className="stats-order">
             <div class="start-container">
