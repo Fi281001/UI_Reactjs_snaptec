@@ -165,9 +165,11 @@
     width: 25vw;
   }
   .content-col-1 span {
-    height: 57px;
+    height: 58px;
     size: 45px;
+    line-height: 57.24px;
   }
+
   .stats {
     width: 808px;
     margin-top: 50px;
@@ -184,7 +186,8 @@
     border-radius: 2.4375rem 0.4875rem 2.4375rem 0.4875rem; /* Chuyển từ 39px 7.8px sang rem */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 1.975rem;
   }
 
   .stats-profit {
@@ -193,8 +196,8 @@
     border-radius: 0.4875rem 2.4375rem 0.4875rem 2.4375rem; /* Chuyển từ 7.8px 39px sang rem */
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0.975rem; /* Chuyển từ 15.6px sang rem */
+    justify-content: space-evenly;
+    padding: 2.975rem; /* Chuyển từ 15.6px sang rem */
   }
   .nav {
     width: 440px; /* Chuyển từ 343.2px sang rem */
