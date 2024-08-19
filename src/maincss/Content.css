@@ -169,7 +169,9 @@
     line-height: 57.24px;
     font-weight: 400;
   }
-
+  .start-container {
+    padding: 0 -2px;
+  }
   .stats {
     width: 808px;
     margin-top: 50px;
@@ -187,7 +189,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1.975rem;
+    padding: 0.975rem;
   }
 
   .stats-profit {
@@ -197,7 +199,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 2.975rem; /* Chuyển từ 15.6px sang rem */
+    padding: 1.975rem; /* Chuyển từ 15.6px sang rem */
   }
   .nav {
     width: 440px; /* Chuyển từ 343.2px sang rem */
@@ -224,5 +226,13 @@
     width: 56px;
     height: 56px;
     border-radius: 50px, 10px, 50px, 10px; /* Chuyển từ 23px 10px sang rem */
+  }
+  .numbers {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .icon {
+    width: 56px;
+    height: 56px;
   }
 }
