@@ -1,32 +1,60 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .App {
   width: 100%;
   height: auto;
   background-color: #e2eaf7;
+  border-radius: 1.875vw; /* Chuyển đổi từ 30px sang vw */
 }
 
 .container {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
+
 .col-1 {
-  width: 212px;
+  width: 13.24vw; /* Chuyển đổi từ 212px sang vw */
 }
+
 .col-2 {
-  width: 1244px;
+  width: 100%;
 }
+
 .col-2 .content {
   background-color: #ffffff;
-  border-radius: 3.12vw;
-  margin-top: 19.5px;
-  margin-bottom: 19.5px;
-  margin-right: 19.5px;
+  border-radius: 3.12vw; /* Giữ nguyên giá trị vw */
+  margin-top: 1.22vw; /* Chuyển đổi từ 19.5px sang vw */
+  margin-left: 3.125vw; /* Chuyển đổi từ 50px sang vw */
+  margin-bottom: 1.22vw; /* Chuyển đổi từ 19.5px sang vw */
+  margin-right: 1.22vw; /* Chuyển đổi từ 19.5px sang vw */
   display: flex;
-  gap: 96px;
-  /* justify-content: space-between; */
+  gap: 8vw; /* Chuyển đổi từ 90px sang vw */
+}
+
+/* Media Queries để điều chỉnh cho kích thước màn hình lớn hơn */
+@media (min-width: 1920px) {
+  .App {
+    border-radius: 1.5vw; /* Điều chỉnh cho màn hình lớn hơn */
+    width: 100%;
+  }
+
+  .col-1 {
+    width: 368px; /* Điều chỉnh kích thước cho màn hình lớn hơn */
+  }
+
+  .col-2 .content {
+    width: 1530px;
+    margin-top: 25px;
+    margin-left: -0.5vw;
+    margin-bottom: 25px;
+    margin-right: 25px;
+  }
+  .col-2 .content {
+    gap: 4vw; /* Chuyển đổi từ 90px sang vw */
+  }
 }

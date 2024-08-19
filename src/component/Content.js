@@ -31,7 +31,7 @@ export default function Content() {
               </div>
               <div class="info">
                 <div class="numbers">$ 12 890,89</div>
-                <div class="name">+$ 840,00</div>
+                <div class="name">Profit</div>
               </div>
               <div class="deal">+$ 840,00</div>
             </div>

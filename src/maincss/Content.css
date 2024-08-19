@@ -1,93 +1,94 @@
 .content-col-1 {
-  width: 630.24px;
-  margin-top: 28px;
-  margin-left: 71.76px;
+  width: 40vw; /* Thay đổi từ rem sang vw */
+  margin-top: 1.75rem;
+  margin-left: 6vw; /* Sử dụng vw để giữ tỷ lệ */
 }
 
 .content-col-2 {
-  width: 312px;
-  margin-top: 28px;
-  margin-right: 59.28px;
+  width: 20vw; /* Thay đổi từ rem sang vw */
+  margin-top: 2rem;
+  margin-right: 3vw; /* Sử dụng vw để giữ tỷ lệ */
 }
 
 .content-col-1 span {
   color: #42427d;
-  font-size: 35.1px;
+  font-size: 2.19rem; /* Chuyển từ 35.1px sang rem */
   font-weight: 400;
 }
 
 .stats {
-  margin-top: 28px;
-  height: 118px;
+  margin-top: 1.75rem; /* Chuyển từ 28px sang rem */
+  height: 7.375rem; /* Chuyển từ 118px sang rem */
   display: flex;
   justify-content: space-around;
-  margin-left: -21.06px;
-  margin-bottom: 28px;
+  margin-left: -1.32rem; /* Chuyển từ -21.06px sang rem */
+  margin-bottom: 1.75rem; /* Chuyển từ 28px sang rem */
 }
 
 .stats-order {
-  width: 249.6px;
+  width: 15.6rem; /* Chuyển từ 249.6px sang rem */
   background-color: #c7f2ff;
-  border-radius: 39px 7.8px 39px 7.8px;
+  border-radius: 2.4375rem 0.4875rem 2.4375rem 0.4875rem; /* Chuyển từ 39px 7.8px sang rem */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .stats-profit {
-  width: 343.2px;
+  width: 21.45rem; /* Chuyển từ 343.2px sang rem */
   background-color: #ffe5ee;
-  border-radius: 7.8px 39px 7.8px 39px;
+  border-radius: 0.4875rem 2.4375rem 0.4875rem 2.4375rem; /* Chuyển từ 7.8px 39px sang rem */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15.6px;
+  padding: 0.975rem; /* Chuyển từ 15.6px sang rem */
 }
 
 .search-box {
   position: relative;
-  width: 218.4px;
-  height: 43.68px;
+  width: 13.65rem; /* Chuyển từ 218.4px sang rem */
+  height: 2.73rem; /* Chuyển từ 43.68px sang rem */
 }
 
 .search-input {
   background-color: #f3f6ff;
   width: 100%;
   height: 100%;
-  padding: 0 31.2px 0 15.6px;
-  border: 2px solid #7979b2;
-  border-radius: 23px 10px 23px 10px;
-  font-size: 12.48px;
+  padding: 0 1.95rem 0 0.975rem; /* Chuyển từ 31.2px 15.6px sang rem */
+  border: 0.125rem solid #7979b2; /* Chuyển từ 2px sang rem */
+  border-radius: 1.4375rem 0.625rem 1.4375rem 0.625rem; /* Chuyển từ 23px 10px sang rem */
+  font-size: 0.78rem; /* Chuyển từ 12.48px sang rem */
 }
 
 .search-icon {
   position: absolute;
   top: 50%;
-  right: 7.8px;
+  right: 0.4875rem; /* Chuyển từ 7.8px sang rem */
   transform: translateY(-50%);
-  font-size: 18.72px;
+  font-size: 1.17rem; /* Chuyển từ 18.72px sang rem */
   color: #888;
 }
 
 .bell-but {
-  height: 43.68px;
-  width: 43.68px;
+  border: none;
+  height: 2.73rem; /* Chuyển từ 43.68px sang rem */
+  width: 2.73rem; /* Chuyển từ 43.68px sang rem */
   background-color: #f3f6ff;
-  border-radius: 23px 10px 23px 10px;
+  border-radius: 1.4375rem 0.625rem 1.4375rem 0.625rem; /* Chuyển từ 23px 10px sang rem */
 }
 
 .image {
-  height: 43.68px;
-  width: 43.68px;
-  border-radius: 23px 10px 23px 10px;
+  height: 2.73rem; /* Chuyển từ 43.68px sang rem */
+  width: 2.73rem; /* Chuyển từ 43.68px sang rem */
+  border-radius: 1.4375rem 0.625rem 1.4375rem 0.625rem; /* Chuyển từ 23px 10px sang rem */
 }
 
 .nav {
-  width: 343.2px;
+  width: 21.45rem; /* Chuyển từ 343.2px sang rem */
   text-align: center;
   display: flex;
   justify-content: space-between;
-  gap: 17.16px;
+  gap: 1.0725rem; /* Chuyển từ 17.16px sang rem */
 }
 
 .start-container {
@@ -95,17 +96,21 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0 21.06px;
+  padding: 0 1.32rem; /* Chuyển từ 21.06px sang rem */
+}
+
+.stats-profit > .start-container {
+  padding: 0 0.625rem !important; /* Chuyển từ 10px sang rem */
 }
 
 .icon {
-  margin-right: 7.8px;
-  height: 43.68px;
-  width: 43.68px;
-  font-size: 18.72px;
+  margin-right: 0.4875rem; /* Chuyển từ 7.8px sang rem */
+  height: 2.73rem; /* Chuyển từ 43.68px sang rem */
+  width: 2.73rem; /* Chuyển từ 43.68px sang rem */
+  font-size: 1.17rem; /* Chuyển từ 18.72px sang rem */
   color: #42427d;
   background-color: #f3f6ff;
-  border-radius: 11.7px 3.9px 11.7px 3.9px;
+  border-radius: 0.73125rem 0.24375rem 0.73125rem 0.24375rem; /* Chuyển từ 11.7px 3.9px sang rem */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,28 +123,103 @@
 }
 
 .numbers {
-  font-size: 24.96px;
+  font-size: 1.56rem; /* Chuyển từ 24.96px sang rem */
   font-weight: 700;
   color: #42427d;
 }
 
 .name {
-  font-size: 12.48px;
+  font-size: 0.78rem; /* Chuyển từ 12.48px sang rem */
   color: #42427d;
   font-weight: 500;
 }
 
 .deal {
-  margin-left: 7.8px;
-  font-size: 12.48px;
+  margin-left: 0.4875rem; /* Chuyển từ 7.8px sang rem */
+  font-size: 0.78rem; /* Chuyển từ 12.48px sang rem */
   font-weight: 700;
   color: #ffffffff;
   background-color: #42427d;
-  border-radius: 7.8px 1.56px 7.8px 1.56px;
-  height: 24.18px;
+  border-radius: 0.4875rem 0.0975rem 0.4875rem 0.0975rem; /* Chuyển từ 7.8px 1.56px sang rem */
+  height: 1.51125rem; /* Chuyển từ 24.18px sang rem */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 7.8px;
-  line-height: 15.87px;
+  padding: 0 0.4875rem; /* Chuyển từ 7.8px sang rem */
+  line-height: 0.991875rem; /* Chuyển từ 15.87px sang rem */
+}
+@media (min-width: 1920px) {
+  .content-col-1 {
+    width: 50vw; /* Điều chỉnh cho màn hình rất lớn */
+  }
+  .content-col-1 {
+    margin-top: 50px;
+    margin-left: 6vw; /* Sử dụng vw để giữ tỷ lệ */
+  }
+  .content-col-2 {
+    width: 20vw; /* Thay đổi từ rem sang vw */
+    margin-top: 50px;
+    margin-right: 3vw; /* Sử dụng vw để giữ tỷ lệ */
+  }
+  .content-col-2 {
+    width: 25vw;
+  }
+  .content-col-1 span {
+    height: 57px;
+    size: 45px;
+  }
+  .stats {
+    width: 808px;
+    margin-top: 50px;
+    height: 152px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -0.32rem;
+    margin-bottom: 3.75rem;
+  }
+
+  .stats-order {
+    width: 320px; /* Chuyển từ 249.6px sang rem */
+    background-color: #c7f2ff;
+    border-radius: 2.4375rem 0.4875rem 2.4375rem 0.4875rem; /* Chuyển từ 39px 7.8px sang rem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stats-profit {
+    width: 440px; /* Chuyển từ 343.2px sang rem */
+    background-color: #ffe5ee;
+    border-radius: 0.4875rem 2.4375rem 0.4875rem 2.4375rem; /* Chuyển từ 7.8px 39px sang rem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.975rem; /* Chuyển từ 15.6px sang rem */
+  }
+  .nav {
+    width: 440px; /* Chuyển từ 343.2px sang rem */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+  }
+  .search-input {
+    width: 280px;
+    height: 56px;
+  }
+  .search-icon {
+    right: -30px; /* Chuyển từ 7.8px sang rem */
+    font-size: 1.5rem;
+  }
+  .bell-but {
+    margin-left: 61px;
+    height: 56px; /* Chuyển từ 43.68px sang rem */
+    width: 56px; /* Chuyển từ 43.68px sang rem */
+    border-radius: 50px, 10px, 50px, 10px; /* Chuyển từ 23px 10px sang rem */
+  }
+  .image {
+    width: 56px;
+    height: 56px;
+    border-radius: 50px, 10px, 50px, 10px; /* Chuyển từ 23px 10px sang rem */
+  }
 }

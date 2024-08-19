@@ -1,7 +1,7 @@
 .navigation {
-  width: 16vw; /* Điều chỉnh tỷ lệ theo viewport */
-  margin-top: 7vh; /* Điều chỉnh tỷ lệ theo viewport */
-  margin-left: 3vw; /* Điều chỉnh tỷ lệ theo viewport */
+  width: 16vw; /* Giữ nguyên giá trị gốc theo viewport */
+  margin-top: 14vh; /* Giữ nguyên giá trị gốc theo viewport */
+  margin-left: 2vw; /* Giữ nguyên giá trị gốc theo viewport */
 }
 
 .navbar-links {
@@ -14,19 +14,21 @@
 }
 
 .navbar-links li {
-  width: 15vw;
-  height: 9vh;
-  border-radius: 2vh; /* Điều chỉnh tỷ lệ theo viewport */
+  width: 18vw; /* Giữ nguyên giá trị gốc theo viewport */
+  height: 8vh; /* Giữ nguyên giá trị gốc theo viewport */
+  border-radius: 2vh; /* Giữ nguyên giá trị gốc theo viewport */
   display: flex;
   align-items: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .navbar-links li a {
   text-decoration: none;
   color: #a0aac8;
-  font-size: 15.6px; /* Điều chỉnh tỷ lệ theo viewport */
+  font-size: 1rem; /* Sử dụng rem để đảm bảo kích thước phông chữ linh hoạt */
   font-weight: 500;
-  margin-left: 2.5vw; /* Điều chỉnh tỷ lệ theo viewport */
+  margin-left: 1.5vw; /* Giữ nguyên giá trị gốc theo viewport */
 }
 
 .navbar-links li:first-child,
@@ -43,6 +45,32 @@
 .navbar-links li > .bi {
   color: #a0aac8;
   font-weight: 500;
-  font-size: 1.5vw; /* Điều chỉnh tỷ lệ theo viewport */
-  margin-left: 2vw; /* Điều chỉnh tỷ lệ theo viewport */
+  font-size: 2vw; /* Giữ nguyên giá trị gốc theo viewport */
+  margin-left: 2vw; /* Giữ nguyên giá trị gốc theo viewport */
+}
+@media (min-width: 1920px) {
+  .navigation {
+    width: 524px; /* Điều chỉnh cho màn hình lớn hơn */
+    margin-top: 8vh;
+    margin-left: 4vw;
+  }
+
+  .navbar-links li {
+    width: 320px;
+    height: 80px;
+    border-radius: 1.5vh;
+  }
+
+  .navbar-links li a {
+    font-size: 20px; /* Điều chỉnh kích thước phông chữ */
+    margin-left: 1.2vw;
+    /* Sử dụng rem để đảm bảo kích thước phông chữ linh hoạt */
+    font-weight: 700;
+    margin-left: 1.5vw;
+  }
+
+  .navbar-links li > .bi {
+    font-size: 1.3vw;
+    margin-left: 1.8vw;
+  }
 }

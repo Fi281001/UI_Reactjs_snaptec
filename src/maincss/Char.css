@@ -1,36 +1,72 @@
 .char {
-  height: 448.5px;
-  border: 2px solid #000;
-  width: 662.22px;
-  margin-left: -18.72px;
+  height: 28.03rem; /* Chuyển từ 448.5px sang rem */
+  border: 0.125rem solid #000; /* Chuyển từ 2px sang rem */
+  width: 41.39rem; /* Chuyển từ 662.22px sang rem */
+  margin-left: -1.17rem; /* Chuyển từ -18.72px sang rem */
 }
 
 .char-title {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15.6px;
+  margin-bottom: 0.975rem; /* Chuyển từ 15.6px sang rem */
 }
 
 .char-title span {
   color: #42427d;
-  font-size: 18.72px;
+  font-size: 1.17rem; /* Chuyển từ 18.72px sang rem */
   font-weight: 700;
 }
 
 .char-title select {
-  width: 116.22px;
-  height: 40.56px;
-  margin-right: 32.76px;
-  border-radius: 23px 10px 23px 10px;
+  margin-right: 10px;
+  width: 7.26rem; /* Chuyển từ 116.22px sang rem */
+  height: 2.535rem; /* Chuyển từ 40.56px sang rem */
+  border-radius: 1.4375rem 0.625rem 1.4375rem 0.625rem; /* Chuyển từ 23px 10px sang rem */
 }
 
 .char-title select option {
   text-align: center;
-  font-size: 12.48px;
+  font-size: 0.78rem; /* Chuyển từ 12.48px sang rem */
   font-weight: 500;
-  border: 2px solid #000;
+  border: 0.125rem solid #000; /* Chuyển từ 2px sang rem */
 }
 
 .charline {
-  margin-left: -14.82px;
+  margin-left: -0.93rem; /* Chuyển từ -14.82px sang rem */
+}
+
+@media (min-width: 1497px) {
+  .charline {
+    width: 624px; /* Điều chỉnh kích thước cho màn hình lớn hơn */
+    height: 360px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .charline {
+    width: 849px; /* Điều chỉnh kích thước cho màn hình cực lớn */
+    height: 500px;
+  }
+}
+@media (min-width: 1920px) {
+  .char-title {
+    margin-left: 12px;
+    margin-bottom: 35px;
+  }
+  .char-title span {
+    font-size: 1.17rem; /* Chuyển từ 18.72px sang rem */
+    font-weight: 700;
+    font-size: 24px;
+    height: 31px;
+  }
+  .char-title select {
+    width: 7.26rem; /* Chuyển từ 116.22px sang rem */
+    height: 2.535rem; /* Chuyển từ 40.56px sang rem */
+    margin-right: 3rem; /* Chuyển từ 32.76px sang rem */
+    border-radius: 1.4375rem 0.625rem 1.4375rem 0.625rem; /* Chuyển từ 23px 10px sang rem */
+    height: 52px;
+  }
+  .charline {
+    margin-left: -44px; /* Chuyển từ -14.82px sang rem */
+  }
 }
