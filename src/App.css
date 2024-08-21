@@ -33,5 +33,5 @@
   margin-right: 25px;
   margin-left: -38px;
   display: flex;
-  gap: 125px; /* Chuyển đổi từ 90px sang vw */
+  gap: 105px; /* Chuyển đổi từ 90px sang vw */
 }

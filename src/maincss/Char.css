@@ -35,3 +35,7 @@
   width: 624px; /* Điều chỉnh kích thước cho màn hình lớn hơn */
   height: 360px;
 }
+.chartContainerStylebig {
+  width: 850px;
+  height: 500px;
+}
