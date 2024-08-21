@@ -1,17 +1,17 @@
 .top-title {
-  width: 21.45rem;
   display: flex;
   justify-content: space-between;
-  margin-top: 28px;
-  margin-bottom: 28px;
+  margin-top: 49px;
+  margin-bottom: 49px;
+  width: 448px;
 }
 
 .top-title span {
   color: #42427d;
-  height: 24.18px;
+  height: 31px;
   font-weight: 700;
-  font-size: 18.72px;
-  line-height: 23.78px;
+  font-size: 24px;
+  line-height: 30.53px;
 }
 
 .top-title a {
@@ -28,7 +28,7 @@
   align-items: center; /* Center items vertically */
   height: 49.92px;
   gap: 15.6px;
-  margin-bottom: 18px;
+  margin-bottom: 40px;
 }
 
 /* Badge styling */
@@ -41,10 +41,10 @@
 
 /* Image styling */
 .image2 {
-  width: 49.92px; /* Set the width of the image */
-  height: 49.92px; /* Set the height of the image */
   object-fit: cover; /* Ensure image covers the area without distortion */
   border-radius: 15px 5px 15px 5px;
+  width: 64px;
+  height: 64px;
 }
 
 /* Container for text information */
@@ -55,42 +55,21 @@
 
 /* Name styling */
 .name {
-  font-size: 15.6px; /* Font size for name */
-  font-weight: 400; /* Make the name bold */
-  margin-bottom: 3.9px; /* Space between name and price */
+  margin-bottom: 3.9px;
   color: #42427d;
-  height: 19.5px;
+  font-size: 20px;
+  height: 25px;
+  line-height: 25.44px;
 }
 
 /* Price styling */
 .price {
-  font-size: 18.72px; /* Font size for price */
-  color: #42427d; /* Text color for price */
+  font-size: 18.72px;
+  color: #42427d;
   font-weight: 700;
 }
 
 @media ((min-width: 1920px)) {
-  .top-title {
-    margin-top: 49px;
-    margin-bottom: 49px;
-    width: 448px;
-  }
-  .block {
-    margin-bottom: 35px;
-  }
-  .top-title span {
-    height: 31px;
-    font-weight: 700;
-    font-size: 24pxpx;
-    line-height: 30.53px;
-  }
-  .image2 {
-    width: 64px; /* Set the width of the image */
-    height: 64px; /* Set the height of the image */
-  }
   .name {
-    font-size: 20px; /* Font size for name */
-    height: 25px;
-    line-height: 25.44px;
   }
 }

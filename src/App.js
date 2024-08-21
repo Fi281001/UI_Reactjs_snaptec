@@ -1,5 +1,6 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./App.css";
+
 import { Logo, Content, Sidebar } from "../src/component";
 
 function App() {

@@ -1,13 +1,12 @@
+/* CSS chung cho tất cả các kích thước màn hình */
 .navigation {
-  width: 16vw; /* Giữ nguyên giá trị gốc theo viewport */
-  margin-top: 14vh; /* Giữ nguyên giá trị gốc theo viewport */
-  margin-left: 2vw; /* Giữ nguyên giá trị gốc theo viewport */
+  width: 320px;
+  margin-top: 90.6px;
+  margin-left: 59.8px;
 }
 
 .navbar-links {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -15,16 +14,16 @@
 
 .navbar-links li {
   position: relative; /* Thêm position relative */
-  width: 18vw; /* Giữ nguyên giá trị gốc theo viewport */
-  height: 8vh; /* Giữ nguyên giá trị gốc theo viewport */
-  border-radius: 2vh; /* Giữ nguyên giá trị gốc theo viewport */
   display: flex;
   align-items: center;
   margin-top: 3px;
   margin-bottom: 3px;
+  width: 335px;
+  height: 80px;
+  border-radius: 1.5vh;
 }
 
-.navbar-links li:first-child::before {
+.navbar-links li:hover:before {
   content: "";
   position: absolute;
   top: -20px;
@@ -36,7 +35,8 @@
   box-shadow: 7.5px 7.5px 0 7.5px #fff;
   z-index: 1; /* Đảm bảo ::before không bị che khuất */
 }
-.navbar-links li:first-child::after {
+
+.navbar-links li:hover:after {
   content: "";
   position: absolute;
   bottom: -20px;
@@ -46,24 +46,23 @@
   background: transparent;
   border-top-right-radius: 20px;
   box-shadow: 7.5px -7.5px 0 7.5px #fff;
-  z-index: 1; /* Đảm bảo ::before không bị che khuất */
+  z-index: 1; /* Đảm bảo ::after không bị che khuất */
 }
 
 .navbar-links li a {
   text-decoration: none;
   color: #a0aac8;
-  font-size: 1rem; /* Sử dụng rem để đảm bảo kích thước phông chữ linh hoạt */
-  font-weight: 500;
-  margin-left: 1.5vw; /* Giữ nguyên giá trị gốc theo viewport */
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 700;
 }
 
-.navbar-links li:first-child,
-.navbar-links li:first-child:hover {
+.navbar-links li:hover {
   background-color: #ffffff; /* Áp dụng màu nền khi hover */
 }
 
-.navbar-links li:first-child > .bi,
-.navbar-links li:first-child > a {
+.navbar-links li:hover > .bi,
+.navbar-links li:hover > a {
   color: #42427d;
   font-weight: 700;
 }
@@ -71,48 +70,8 @@
 .navbar-links li > .bi {
   color: #a0aac8;
   font-weight: 500;
-  font-size: 2vw; /* Giữ nguyên giá trị gốc theo viewport */
-  margin-left: 2vw; /* Giữ nguyên giá trị gốc theo viewport */
+  font-size: 38px; /* Giữ nguyên giá trị gốc theo viewport */
+  margin-left: 38px; /* Giữ nguyên giá trị gốc theo viewport */
 }
 
-@media (min-width: 1920px) {
-  .navigation {
-    width: 524px; /* Điều chỉnh cho màn hình lớn hơn */
-    margin-top: 8vh;
-    margin-left: 4vw;
-  }
-
-  .navbar-links li {
-    width: 320px;
-    height: 80px;
-    border-radius: 1.5vh;
-  }
-
-  .navbar-links li a {
-    font-size: 20px; /* Điều chỉnh kích thước phông chữ */
-    margin-left: 1.2vw;
-    font-weight: 700;
-  }
-
-  .navbar-links li > .bi {
-    font-size: 1.3vw;
-    margin-left: 1.8vw;
-  }
-  .navbar-links li:first-child::before {
-    top: -20px;
-    right: 40px;
-
-    border-bottom-right-radius: 20px;
-    box-shadow: 7.5px 7.5px 0 7.5px #fff;
-    z-index: 1; /* Đảm bảo ::before không bị che khuất */
-  }
-  .navbar-links li:first-child::after {
-    bottom: -20px;
-    right: 40px;
-
-    background: transparent;
-    border-top-right-radius: 20px;
-    box-shadow: 7.5px -7.5px 0 7.5px #fff;
-    z-index: 1; /* Đảm bảo ::before không bị che khuất */
-  }
-}
+/* Media query cho màn hình nhỏ hơn 1920px chiều rộng */

@@ -1,10 +1,10 @@
 .logo {
   display: flex;
   align-items: center;
-  width: 7.8vw; /* Giữ nguyên giá trị gốc theo viewport width */
-  height: 3.9vh; /* Giữ nguyên giá trị gốc theo viewport height */
-  margin-left: 4vw; /* Giữ nguyên giá trị gốc */
-  margin-top: 8vh; /* Giữ nguyên giá trị gốc */
+  width: 121px; /* Điều chỉnh kích thước cho màn hình lớn hơn */
+  height: 38px;
+  margin-left: 104px;
+  margin-top: 84px;
   max-width: 15vw; /* Đặt giới hạn kích thước tối đa dựa trên viewport width */
   max-height: 15vh; /* Đặt giới hạn kích thước tối đa dựa trên viewport height */
   color: #42427d;
@@ -16,22 +16,7 @@
 
 .logo_name {
   margin-left: 0.5rem; /* Sử dụng rem để đảm bảo khoảng cách */
-  font-size: 1.5rem; /* Sử dụng rem cho kích thước phông chữ */
+  font-size: 30px; /* Sử dụng rem cho kích thước phông chữ */
   line-height: 1.3rem; /* Sử dụng rem cho line-height */
   font-weight: 700;
-}
-@media ((min-width: 1920px)) {
-  .logo {
-    width: 2vw; /* Điều chỉnh kích thước cho màn hình lớn hơn */
-    height: 6vh;
-    margin-left: 104px;
-    margin-top: 84px;
-  }
-  .logo_name {
-    width: 38px;
-    font-size: 30px;
-  }
-  .bi-emoji-smile {
-    font-size: 30px; /* Sử dụng rem để giữ kích thước phông chữ linh hoạt */
-  }
 }

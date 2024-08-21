@@ -1,24 +1,28 @@
 .char2 {
-  margin-top: 28px;
-  width: 364.26px;
+  width: 440px;
+  margin-top: 60px;
+  margin-left: -1.72px;
 }
 
 .char-title3 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 15.6px;
+  width: 440px;
 }
 
 .char-title3 span {
   color: #42427d;
-  font-size: 18.72px;
+  font-size: 24px;
   font-weight: 700;
+  height: 31px;
+  line-height: 30.53px;
 }
 
 .char-title3 select {
   width: 116.22px;
-  height: 40.56px;
-  margin-right: 13.26px;
+  height: 52px;
+
   border-radius: 23px 10px 23px 10px;
 }
 
@@ -32,24 +36,4 @@
 .char-small {
   margin-top: 15px;
   margin-left: -8.58px;
-}
-
-@media ((min-width: 1920px)) {
-  .char-title3 {
-    width: 467px;
-  }
-  .char-title3 span {
-    color: #42427d;
-    font-size: 24px;
-    font-weight: 700;
-    height: 31px;
-    line-height: 30.53px;
-  }
-  .char2 {
-    margin-top: 80px;
-    margin-left: -1.72px;
-  }
-  .char-title3 select {
-    height: 52px;
-  }
 }
