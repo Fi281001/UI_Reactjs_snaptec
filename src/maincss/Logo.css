@@ -3,7 +3,7 @@
   align-items: center;
   width: 121px; /* Điều chỉnh kích thước cho màn hình lớn hơn */
   height: 38px;
-  margin-left: 104px;
+  margin-left: 78px;
   margin-top: 84px;
   max-width: 15vw; /* Đặt giới hạn kích thước tối đa dựa trên viewport width */
   max-height: 15vh; /* Đặt giới hạn kích thước tối đa dựa trên viewport height */
@@ -19,4 +19,22 @@
   font-size: 30px; /* Sử dụng rem cho kích thước phông chữ */
   line-height: 1.3rem; /* Sử dụng rem cho line-height */
   font-weight: 700;
+}
+
+@media (max-width: 1600px) {
+  .logo {
+    margin-left: 102px; /* Sử dụng rem để đảm bảo khoảng cách */
+  }
+}
+
+@media (max-width: 1110px) {
+  .logo_name {
+    margin-left: 0.5rem; /* Sử dụng rem để đảm bảo khoảng cách */
+    font-size: 24px; /* Sử dụng rem cho kích thước phông chữ */
+    line-height: 1.3rem; /* Sử dụng rem cho line-height */
+    font-weight: 700;
+  }
+  .logo {
+    margin-left: 83px;
+  }
 }

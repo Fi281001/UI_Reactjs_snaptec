@@ -1,11 +1,11 @@
 .content-col-1 {
-  width: 808px; /* Thay đổi từ rem sang vw */
+  width: 52.87%; /* Thay đổi từ rem sang vw */
   margin-top: 35px;
   margin-left: 99px;
 }
 
 .content-col-2 {
-  width: 440px;
+  width: 27.79%;
   margin-top: 50px;
 }
 
@@ -15,20 +15,22 @@
   font-size: 45px;
   line-height: 57.24px;
   font-weight: 400;
+  width: 46.3%;
 }
 
 .stats {
-  width: 808px;
+  width: 100%;
   margin-top: 50px;
   height: 152px;
   display: flex;
   justify-content: space-between;
   margin-left: -5px;
   margin-bottom: 60px;
+  gap: 10px;
 }
 
 .stats-order {
-  width: 320px;
+  width: 39.6%;
   background-color: #c7f2ff;
   border-radius: 2.4375rem 0.4875rem 2.4375rem 0.4875rem;
   display: flex;
@@ -38,7 +40,7 @@
 }
 
 .stats-profit {
-  width: 440px;
+  width: 54.45%;
   background-color: #ffe5ee;
   border-radius: 0.4875rem 2.4375rem 0.4875rem 2.4375rem;
   display: flex;
@@ -55,12 +57,11 @@
 
 .search-input {
   background-color: #f3f6ff;
-
   padding: 031.2px 15.6px; /* Chuyển từ 31.2px 15.6px sang rem */
   border: 0.125rem solid #7979b2; /* Chuyển từ 2px sang rem */
   border-radius: 1.4375rem 0.625rem 1.4375rem 0.625rem; /* Chuyển từ 23px 10px sang rem */
   font-size: 0.78rem; /* Chuyển từ 12.48px sang rem */
-  width: 280px;
+  width: 123.2%;
   height: 56px;
 }
 
@@ -88,7 +89,7 @@
 }
 
 .nav {
-  width: 440px;
+  width: 100%;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -111,10 +112,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
+  width: 19.72%;
   height: 56px;
 }
-
 .info {
   display: flex;
   flex-direction: column;
@@ -128,7 +128,7 @@
 }
 
 .name {
-  font-size: 0.78rem; /* Chuyển từ 12.48px sang rem */
+  font-size: 23px; /* Chuyển từ 12.48px sang rem */
   color: #42427d;
   font-weight: 500;
 }
@@ -146,4 +146,70 @@
   justify-content: center;
   padding: 0 7.8px; /* Chuyển từ 7.8px sang rem */
   line-height: 0.991875rem; /* Chuyển từ 15.87px sang rem */
+}
+@media (max-width: 1800px) {
+  .search-box {
+    width: 183px; /* Chuyển từ 218.4px sang rem */
+  }
+  .bell-but {
+    margin-left: 48px;
+  }
+}
+@media (max-width: 1600px) {
+  .numbers {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .search-icon {
+    right: 21px !important;
+  }
+  .search-input {
+    width: 79.2% !important;
+  }
+  .bell-but {
+    margin-left: -21px;
+  }
+}
+@media (max-width: 1400px) {
+  .stats {
+    width: 100%;
+    margin-top: 50px;
+    height: 152px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5px;
+    margin-bottom: 60px;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .stats-order {
+    width: 100%;
+    background-color: #c7f2ff;
+    border-radius: 2.4375rem 0.4875rem 2.4375rem 0.4875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 37px;
+    height: 76px;
+  }
+
+  .stats-profit {
+    width: 100%;
+    background-color: #ffe5ee;
+    border-radius: 0.4875rem 2.4375rem 0.4875rem 2.4375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.975rem;
+    height: 75px;
+  }
+}
+@media (max-width: 1258px) {
+}
+@media (max-width: 1162px) {
+  .name {
+    font-size: 16px !important;
+  }
 }

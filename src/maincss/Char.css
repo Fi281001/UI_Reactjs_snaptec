@@ -1,12 +1,11 @@
 .char {
-  width: 808px; /* Chuyển từ 662.22px sang rem */
+  width: 100%; /* Chuyển từ 662.22px sang rem */
   height: 575px;
 }
 
 .char-title {
   display: flex;
   justify-content: space-between;
-
   margin-bottom: 35px;
 }
 
@@ -30,12 +29,7 @@
   border: 0.125rem solid #000; /* Chuyển từ 2px sang rem */
 }
 
-.charline {
-  margin-left: -44px; /* Chuyển từ -14.82px sang rem */
-  width: 624px; /* Điều chỉnh kích thước cho màn hình lớn hơn */
-  height: 360px;
-}
 .chartContainerStylebig {
-  width: 850px;
+  width: 100%;
   height: 500px;
 }
