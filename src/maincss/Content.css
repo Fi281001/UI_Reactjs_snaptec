@@ -155,7 +155,7 @@
     margin-left: 48px;
   }
 }
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   .numbers {
     font-size: 20px;
   }
@@ -170,6 +170,28 @@
   }
   .bell-but {
     margin-left: -21px;
+  }
+}
+@media (max-width: 1250px) {
+  .search-icon {
+    right: 55px !important;
+  }
+  .search-input {
+    width: 45% !important;
+  }
+  .bell-but {
+    margin-left: -64px;
+  }
+}
+@media (max-width: 1150px) {
+  .search-icon {
+    right: 135px !important;
+  }
+  .search-input {
+    display: none;
+  }
+  .bell-but {
+    margin-left: -116px;
   }
 }
 @media (max-width: 1400px) {
@@ -206,8 +228,7 @@
     height: 75px;
   }
 }
-@media (max-width: 1258px) {
-}
+
 @media (max-width: 1162px) {
   .name {
     font-size: 16px !important;
